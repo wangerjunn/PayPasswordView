@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>PayPasswordDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>664B8F551F29F02400ACBD65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>664B8F6E1F29F02400ACBD65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>664B8F791F29F02400ACBD65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

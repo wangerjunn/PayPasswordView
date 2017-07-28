@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		664B8F5B1F29F02400ACBD65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B8F5A1F29F02400ACBD65 /* main.m */; };
+		664B8F5E1F29F02400ACBD65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B8F5D1F29F02400ACBD65 /* AppDelegate.m */; };
+		664B8F611F29F02400ACBD65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B8F601F29F02400ACBD65 /* ViewController.m */; };
+		664B8F641F29F02400ACBD65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664B8F621F29F02400ACBD65 /* Main.storyboard */; };
+		664B8F661F29F02400ACBD65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664B8F651F29F02400ACBD65 /* Assets.xcassets */; };
+		664B8F691F29F02400ACBD65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664B8F671F29F02400ACBD65 /* LaunchScreen.storyboard */; };
+		664B8F741F29F02400ACBD65 /* PayPasswordDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B8F731F29F02400ACBD65 /* PayPasswordDemoTests.m */; };
+		664B8F7F1F29F02400ACBD65 /* PayPasswordDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B8F7E1F29F02400ACBD65 /* PayPasswordDemoUITests.m */; };
+		66B067F01F2AD75300691453 /* PayPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B067EF1F2AD75300691453 /* PayPasswordView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		664B8F701F29F02400ACBD65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664B8F4E1F29F02400ACBD65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664B8F551F29F02400ACBD65;
+			remoteInfo = PayPasswordDemo;
+		};
+		664B8F7B1F29F02400ACBD65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664B8F4E1F29F02400ACBD65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664B8F551F29F02400ACBD65;
+			remoteInfo = PayPasswordDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		664B8F561F29F02400ACBD65 /* PayPasswordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPasswordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		664B8F5A1F29F02400ACBD65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		664B8F5C1F29F02400ACBD65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		664B8F5D1F29F02400ACBD65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		664B8F5F1F29F02400ACBD65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		664B8F601F29F02400ACBD65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		664B8F631F29F02400ACBD65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		664B8F651F29F02400ACBD65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		664B8F681F29F02400ACBD65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		664B8F6A1F29F02400ACBD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664B8F6F1F29F02400ACBD65 /* PayPasswordDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPasswordDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		664B8F731F29F02400ACBD65 /* PayPasswordDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayPasswordDemoTests.m; sourceTree = "<group>"; };
+		664B8F751F29F02400ACBD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664B8F7A1F29F02400ACBD65 /* PayPasswordDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPasswordDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		664B8F7E1F29F02400ACBD65 /* PayPasswordDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayPasswordDemoUITests.m; sourceTree = "<group>"; };
+		664B8F801F29F02400ACBD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66B067EE1F2AD75300691453 /* PayPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPasswordView.h; sourceTree = "<group>"; };
+		66B067EF1F2AD75300691453 /* PayPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayPasswordView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		664B8F531F29F02400ACBD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664B8F6C1F29F02400ACBD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664B8F771F29F02400ACBD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		664B8F4D1F29F02400ACBD65 = {
+			isa = PBXGroup;
+			children = (
+				664B8F581F29F02400ACBD65 /* PayPasswordDemo */,
+				664B8F721F29F02400ACBD65 /* PayPasswordDemoTests */,
+				664B8F7D1F29F02400ACBD65 /* PayPasswordDemoUITests */,
+				664B8F571F29F02400ACBD65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		664B8F571F29F02400ACBD65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				664B8F561F29F02400ACBD65 /* PayPasswordDemo.app */,
+				664B8F6F1F29F02400ACBD65 /* PayPasswordDemoTests.xctest */,
+				664B8F7A1F29F02400ACBD65 /* PayPasswordDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		664B8F581F29F02400ACBD65 /* PayPasswordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				664B8F5C1F29F02400ACBD65 /* AppDelegate.h */,
+				664B8F5D1F29F02400ACBD65 /* AppDelegate.m */,
+				664B8F5F1F29F02400ACBD65 /* ViewController.h */,
+				664B8F601F29F02400ACBD65 /* ViewController.m */,
+				66B067EE1F2AD75300691453 /* PayPasswordView.h */,
+				66B067EF1F2AD75300691453 /* PayPasswordView.m */,
+				664B8F621F29F02400ACBD65 /* Main.storyboard */,
+				664B8F651F29F02400ACBD65 /* Assets.xcassets */,
+				664B8F671F29F02400ACBD65 /* LaunchScreen.storyboard */,
+				664B8F6A1F29F02400ACBD65 /* Info.plist */,
+				664B8F591F29F02400ACBD65 /* Supporting Files */,
+			);
+			path = PayPasswordDemo;
+			sourceTree = "<group>";
+		};
+		664B8F591F29F02400ACBD65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				664B8F5A1F29F02400ACBD65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		664B8F721F29F02400ACBD65 /* PayPasswordDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				664B8F731F29F02400ACBD65 /* PayPasswordDemoTests.m */,
+				664B8F751F29F02400ACBD65 /* Info.plist */,
+			);
+			path = PayPasswordDemoTests;
+			sourceTree = "<group>";
+		};
+		664B8F7D1F29F02400ACBD65 /* PayPasswordDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				664B8F7E1F29F02400ACBD65 /* PayPasswordDemoUITests.m */,
+				664B8F801F29F02400ACBD65 /* Info.plist */,
+			);
+			path = PayPasswordDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		664B8F551F29F02400ACBD65 /* PayPasswordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664B8F831F29F02500ACBD65 /* Build configuration list for PBXNativeTarget "PayPasswordDemo" */;
+			buildPhases = (
+				664B8F521F29F02400ACBD65 /* Sources */,
+				664B8F531F29F02400ACBD65 /* Frameworks */,
+				664B8F541F29F02400ACBD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayPasswordDemo;
+			productName = PayPasswordDemo;
+			productReference = 664B8F561F29F02400ACBD65 /* PayPasswordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		664B8F6E1F29F02400ACBD65 /* PayPasswordDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664B8F861F29F02500ACBD65 /* Build configuration list for PBXNativeTarget "PayPasswordDemoTests" */;
+			buildPhases = (
+				664B8F6B1F29F02400ACBD65 /* Sources */,
+				664B8F6C1F29F02400ACBD65 /* Frameworks */,
+				664B8F6D1F29F02400ACBD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664B8F711F29F02400ACBD65 /* PBXTargetDependency */,
+			);
+			name = PayPasswordDemoTests;
+			productName = PayPasswordDemoTests;
+			productReference = 664B8F6F1F29F02400ACBD65 /* PayPasswordDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		664B8F791F29F02400ACBD65 /* PayPasswordDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664B8F891F29F02500ACBD65 /* Build configuration list for PBXNativeTarget "PayPasswordDemoUITests" */;
+			buildPhases = (
+				664B8F761F29F02400ACBD65 /* Sources */,
+				664B8F771F29F02400ACBD65 /* Frameworks */,
+				664B8F781F29F02400ACBD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664B8F7C1F29F02400ACBD65 /* PBXTargetDependency */,
+			);
+			name = PayPasswordDemoUITests;
+			productName = PayPasswordDemoUITests;
+			productReference = 664B8F7A1F29F02400ACBD65 /* PayPasswordDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		664B8F4E1F29F02400ACBD65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "花花";
+				TargetAttributes = {
+					664B8F551F29F02400ACBD65 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JEHZ3ESUU9;
+						ProvisioningStyle = Automatic;
+					};
+					664B8F6E1F29F02400ACBD65 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JEHZ3ESUU9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 664B8F551F29F02400ACBD65;
+					};
+					664B8F791F29F02400ACBD65 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JEHZ3ESUU9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 664B8F551F29F02400ACBD65;
+					};
+				};
+			};
+			buildConfigurationList = 664B8F511F29F02400ACBD65 /* Build configuration list for PBXProject "PayPasswordDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 664B8F4D1F29F02400ACBD65;
+			productRefGroup = 664B8F571F29F02400ACBD65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				664B8F551F29F02400ACBD65 /* PayPasswordDemo */,
+				664B8F6E1F29F02400ACBD65 /* PayPasswordDemoTests */,
+				664B8F791F29F02400ACBD65 /* PayPasswordDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		664B8F541F29F02400ACBD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664B8F691F29F02400ACBD65 /* LaunchScreen.storyboard in Resources */,
+				664B8F661F29F02400ACBD65 /* Assets.xcassets in Resources */,
+				664B8F641F29F02400ACBD65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664B8F6D1F29F02400ACBD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664B8F781F29F02400ACBD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		664B8F521F29F02400ACBD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B067F01F2AD75300691453 /* PayPasswordView.m in Sources */,
+				664B8F611F29F02400ACBD65 /* ViewController.m in Sources */,
+				664B8F5E1F29F02400ACBD65 /* AppDelegate.m in Sources */,
+				664B8F5B1F29F02400ACBD65 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664B8F6B1F29F02400ACBD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664B8F741F29F02400ACBD65 /* PayPasswordDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664B8F761F29F02400ACBD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664B8F7F1F29F02400ACBD65 /* PayPasswordDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		664B8F711F29F02400ACBD65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664B8F551F29F02400ACBD65 /* PayPasswordDemo */;
+			targetProxy = 664B8F701F29F02400ACBD65 /* PBXContainerItemProxy */;
+		};
+		664B8F7C1F29F02400ACBD65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664B8F551F29F02400ACBD65 /* PayPasswordDemo */;
+			targetProxy = 664B8F7B1F29F02400ACBD65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		664B8F621F29F02400ACBD65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664B8F631F29F02400ACBD65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		664B8F671F29F02400ACBD65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664B8F681F29F02400ACBD65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		664B8F811F29F02500ACBD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		664B8F821F29F02500ACBD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		664B8F841F29F02500ACBD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JEHZ3ESUU9;
+				INFOPLIST_FILE = PayPasswordDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzd.coup.com.PayPasswordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		664B8F851F29F02500ACBD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JEHZ3ESUU9;
+				INFOPLIST_FILE = PayPasswordDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzd.coup.com.PayPasswordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		664B8F871F29F02500ACBD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JEHZ3ESUU9;
+				INFOPLIST_FILE = PayPasswordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzd.coup.com.PayPasswordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayPasswordDemo.app/PayPasswordDemo";
+			};
+			name = Debug;
+		};
+		664B8F881F29F02500ACBD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JEHZ3ESUU9;
+				INFOPLIST_FILE = PayPasswordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzd.coup.com.PayPasswordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayPasswordDemo.app/PayPasswordDemo";
+			};
+			name = Release;
+		};
+		664B8F8A1F29F02500ACBD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JEHZ3ESUU9;
+				INFOPLIST_FILE = PayPasswordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzd.coup.com.PayPasswordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayPasswordDemo;
+			};
+			name = Debug;
+		};
+		664B8F8B1F29F02500ACBD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JEHZ3ESUU9;
+				INFOPLIST_FILE = PayPasswordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzd.coup.com.PayPasswordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayPasswordDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		664B8F511F29F02400ACBD65 /* Build configuration list for PBXProject "PayPasswordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664B8F811F29F02500ACBD65 /* Debug */,
+				664B8F821F29F02500ACBD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664B8F831F29F02500ACBD65 /* Build configuration list for PBXNativeTarget "PayPasswordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664B8F841F29F02500ACBD65 /* Debug */,
+				664B8F851F29F02500ACBD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664B8F861F29F02500ACBD65 /* Build configuration list for PBXNativeTarget "PayPasswordDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664B8F871F29F02500ACBD65 /* Debug */,
+				664B8F881F29F02500ACBD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664B8F891F29F02500ACBD65 /* Build configuration list for PBXNativeTarget "PayPasswordDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664B8F8A1F29F02500ACBD65 /* Debug */,
+				664B8F8B1F29F02500ACBD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 664B8F4E1F29F02400ACBD65 /* Project object */;
+}
